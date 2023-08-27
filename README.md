@@ -66,5 +66,21 @@ Counting Sort is a non-comparison-based sorting algorithm that works best for so
 **Time Complexity (average):** O(n+k) \
 **Space Complexity:** O(k)
 
+## Bucket Sort
+
+**Overview:**
+Bucket Sort is a distribution-based sorting algorithm that works well when the input elements are uniformly distributed across a range. It divides the input range into a fixed number of equal-sized buckets, places elements into their respective buckets, and then sorts each bucket individually, either using another sorting algorithm or recursively applying bucket sort. Finally, the sorted buckets are concatenated to produce the sorted array.
+
+**Time Complexity (average):** O(n + k)
+**Space Complexity:** O(n)
+
+## Radix Sort
+
+**Overview:**
+Radix Sort is a non-comparison-based sorting algorithm that processes elements digit by digit. It sorts numbers based on each digit's value, from the least significant digit to the most significant digit (LSD) or vice versa (MSD). Radix Sort can be applied to integers or strings by considering each character's ASCII value. It repeatedly distributes the elements into buckets based on the current digit and collects them back in order.
+
+**Time Complexity (average):** O(n * k)
+**Space Complexity:** O(n + k)
+
 
 
